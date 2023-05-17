@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Un Pas de Géant</title>
+    <meta
+      type="description"
+      content="Association d'aide aux enfants handicapés"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="fondEcran">
+      <div class="container">
+        <header>
+          <!-- ----------------- CREATION NAVBAR -------------------- -->
+          <nav
+            class="container navbar navbar-expand-lg navbar-dark bg-primary col-sm-11"
+          >
+            <div class="container">
+              <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarText"
+                aria-controls="navbarText"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Association</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Faire un don</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./assoEvents.html"
+                      >Evènements</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <br /><br /><br />
+          <h1 class="text-center py-3 bg-light">UN PAS DE GEANT</h1>
+        </header>
+      </div>
+      <!-- ------------------ CREATION CONTENU ----------------- -->
+
+      <main>
+        <div class="container col-sm-8 py-2 text-center">
+          <p>
+            L'Association Un Pas de Géant a été créée en avril 2016 dans le but
+            d'aider le petit Lorenzo et d'autres enfants, présentant un retard
+            psycho-moteur lié à certaines pathologies dûes à leurs grandes
+            prématurité, à grandir et s'épanouir comme des enfant de leurs âges.
+          </p>
+        </div>
+        <section class="row container mx-auto">
+          <div class="container col-sm-12 col-lg-5 text-center">
+            <img
+              id="logoAsso"
+              class="py-2 img-fluid"
+              src="./médias/logoAsso.jpg"
+              alt="logo association"
+            />
+          </div>
+          <div class="container col-sm-12 col-lg-7 py-3 my-auto text-center">
+            <p>
+              Après réflexion sur toute cette expérience de vie, il nous a paru
+              évident d'aider les familles d'enfants handicapés à palier le
+              manque d'information sur les méthodes de rééducation et
+              appareillages pouvant améliorer les compétences physiques des
+              enfants, éviter les malformations et ainsi augmenter leur
+              bien-être.
+            </p>
+            <p>
+              Grâce à votre participation et vos dons nous espérons pouvoir
+              acquérir de nouveaux appareillages et faire bénéficier à Lorenzo
+              et d'autres enfants de stages de rééducation, par des thérapeutes
+              formés à des méthodes spécifiques non reconnues en France mais
+              dont les effets bénéfiques ne sont plus à prouver.
+            </p>
+          </div>
+        </section>
+        <div class="mx-auto my-4 bg-primary" id="separateLine"></div>
+        <div id="imgChildren" class="mx-auto col col-lg-8 img-fluid"></div>
+        <div class="mx-auto my-4 bg-primary" id="separateLine"></div>
+        <section>
+          <div class="container row text-center col-sm-8 mx-auto py-2">
+            <h2 id="projets" class="bg-light">Nos projets</h2>
+            <p class="my-3">
+              L'Association U.P.G est née en vue de réaliser divers projets
+              pouvant aider Lorenzo et d'autres enfants handicapés à améliorer
+              leur autonomie et leur indépendance dans la vie future. Pour cela,
+              nous avons plusieurs objectifs :
+            </p>
+            <ul id="listProjects" class="text-start col-sm-12 mt-4">
+              <li>
+                Réaliser des stages intensifs de rééducation Medek à Lyon et à
+                Toulouse.
+              </li>
+              <li>
+                Faire connaître les méthodes de rééducations (Padovan ,Medek)
+                aux parents d'enfants handicapés dans l'Yonne et aux différents
+                thérapeutes souhaitant s'y former.
+              </li>
+              <li>
+                Organiser des sessions intensives Medek dans l'Yonne grâce aux
+                thérapeutes qui se déplacent partout en France ( nombres
+                d'enfants minimums requis).
+              </li>
+              <li>
+                Créer des manifestations permettant un financement des
+                différents matériaux nécessaires à un espace multi-sensoriel
+                pour Lorenzo.
+              </li>
+              <li>Financer les appareillages de Lorenzo.</li>
+              <li>
+                Financer la thérapie et le déplacement pour des stages de
+                rééducation.
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <!-- --------------------- CREATION FOOTER -------------------- -->
+      <footer class="container bg-primary text-white text-center">
+        <div class="footer align-items-center justify-items-center">
+          <img
+            src="./médias/logoAsso.jpg"
+            alt="logo association"
+            id="logoFooter"
+          />
+          <p class="footer">
+            Siège Social : 4 Rte du Lac d'Argent Les Bois de la Madeleine 89450
+            VEZELAY
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
